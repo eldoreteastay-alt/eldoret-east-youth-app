@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Eldoret East Youth App Download</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; padding: 40px; background: #f5f5f5; }
+    .container { background: #fff; padding: 20px; border-radius: 8px; display: inline-block; }
+    img { width: 200px; height: 200px; margin: 20px 0; }
+    a.button { display: inline-block; padding: 12px 24px; background: #1B2951; color: #fff; border-radius: 6px; text-decoration: none; font-size: 16px; margin: 10px 0; }
+    p.warning { color: red; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Eldoret East Youth App</h1>
+    <p>Scan the QR code below or click the button to download the app.</p>
+
+    <!-- QR code image -->
+    <img src="https://chart.googleapis.com/chart?cht=qr&chs=300x300&chl=https%3A%2F%2Fdrive.google.com%2Fuc%3Fexport%3Ddownload%26id%3D1qvw_NWcrz_8TI9JuKZ0GS1-s5AF_XH69" alt="QR Code">
+
+    <!-- Direct download button -->
+    <p><a class="button" href="https://drive.google.com/uc?export=download&id=1qvw_NWcrz_8TI9JuKZ0GS1-s5AF_XH69">Download APK</a></p>
+
+    <!-- Warning message -->
+    <p class="warning">
+      ⚠️ Google Drive may show a warning: “This file may harm your device.”<br>
+      This is normal for APKs. The file is safe. Tap Download → Open to install.
+    </p>
+
+    <!-- Optional instructions -->
+    <p>Android users may need to enable “Install unknown apps” for their browser.</p>
+  </div>
+</body>
+</html>
